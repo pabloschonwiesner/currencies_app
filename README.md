@@ -1,24 +1,9 @@
-# front-currencies
+# Desafío App Vue.js crypto
 
-## Project setup
-```
-npm install
-```
+### Instalacion
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Para instalar este proyecto es requisito tener Node.js (v12 o superior ), Docker
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Clonar repositorio
+2. Ejecutar docker build -t currencies-app .
+3. Ejecutar docker run -it -dp 8080:8080 --rm --name dockerize-currencies-app currencies-app
